@@ -55,28 +55,12 @@ Tested 5 algorithms with proper cross-validation:
 ## 6. External Test Set Evaluation
 The real held-out test set (fights the model has never seen) gave realistic performance and was used to generate the final UFC 322 predictions above.
 
-Stat category predictions:
-Category	Jack Della Maddalena	Islam Makhachev
-SLpM (Strikes Landed/Min)	81.73%	18.27%
-Str. Acc. (Striking Accuracy)	54.24%	45.76%
-SApM (Strikes Absorbed/Min)	18.86%	81.14%
-Str. Def. (Striking Defense)	54.24%	45.76%
-TD Avg. (Takedown Average)	1.89%	98.11%
-TD Acc. (Takedown Accuracy)	4.24%	95.76%
-TD Def. (Takedown Defense)	4.24%	95.76%
-Sub. Avg. (Submission Average)	8.22%	91.78%
+<img width="535" height="289" alt="Screenshot 2025-11-14 at 8 11 36 PM" src="https://github.com/user-attachments/assets/88b29283-6f56-4a08-8378-3d061685fa21" />
 Analysis: Jack Della Maddalena has advantages in striking volume, accuracy, and defense, plus physical advantages. Islam Makhachev has a large advantage in takedowns and submissions. The model slightly favors Jack Della Maddalena based on striking metrics.
 
-Stat category predictions:
-Category	Valentina Shevchenko	Zhang Weili
-SLpM (Strikes Landed/Min)	43.36%	56.64%
-Str. Acc. (Striking Accuracy)	80.35%	19.65%
-SApM (Strikes Absorbed/Min)	56.96%	43.04%
-Str. Def. (Striking Defense)	80.35%	19.65%
-TD Avg. (Takedown Average)	41.00%	59.00%
-TD Acc. (Takedown Accuracy)	43.60%	56.40%
-TD Def. (Takedown Defense)	43.60%	56.40%
-Sub. Avg. (Submission Average)	13.73%	86.27%
+
+<img width="532" height="288" alt="Screenshot 2025-11-14 at 8 11 49 PM" src="https://github.com/user-attachments/assets/55f5f668-a4ae-44a0-acca-e6b778be2019" />
+
 Analysis: Valentina Shevchenko has large advantages in striking accuracy and defense, plus physical advantages. Zhang Weili has advantages in striking volume, takedowns, and submissions. The model favors Valentina Shevchenko based on accuracy/defense and physical attributes.
 
 ## 7. Main Execution
