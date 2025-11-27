@@ -10,8 +10,6 @@ Original file is located at
 ##Islam Makhachev VS Della Maddalena      |       Shevchenko VS Zhang
 
 ###Author Ali & Abdirahman
-
-> Add blockquote
 """
 
 events_df.head()
